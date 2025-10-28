@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "push-notif",
+    "slug": "push-notif",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "pushnotif",
+    "userInterfaceStyle": "automatic",
+    "splashScreen": {
+      "image": "./assets/images/favicon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tgmdp.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/favicon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.tgmdp.app",
+      "googleServicesFile": "./google-services.json",
+      "buildType": "release",
+      "enableSeparateBuildPerCPUArchitecture": true
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/favicon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c3161f22-29eb-41d5-a3cc-d62a563cd758"
+      }
+    }
+  }
+}
