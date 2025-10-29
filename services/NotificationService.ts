@@ -146,7 +146,7 @@ class NotificationService {
     return (
       Constants.expoConfig?.extra?.backendUrl ||
       process.env.EXPO_PUBLIC_BACKEND_URL ||
-      'https://5fd5bd8a6a0c.ngrok-free.app'
+      'http://192.168.43.81:5000'
     );
   }
 

@@ -7,11 +7,6 @@
     "icon": "./assets/images/icon.png",
     "scheme": "pushnotif",
     "userInterfaceStyle": "automatic",
-    "splashScreen": {
-      "image": "./assets/images/favicon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.tgmdp.app"
@@ -22,9 +17,7 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.tgmdp.app",
-      "googleServicesFile": "./google-services.json",
-      "buildType": "release",
-      "enableSeparateBuildPerCPUArchitecture": true
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
@@ -45,7 +38,8 @@
       },
       "eas": {
         "projectId": "c3161f22-29eb-41d5-a3cc-d62a563cd758"
-      }
+      },
+      "webAppUrl": "http://192.168.43.81:5173"
     }
   }
 }
